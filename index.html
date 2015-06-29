@@ -1,0 +1,231 @@
+<!-- Marcos Garciarena
+6/28/2015
+First HTML/CSS/JavaScript/Bootstrap Project -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <title>BASAP</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/cover.css" rel="stylesheet">
+
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+  </head>
+
+  <body>
+    <!--Navigation Bar-->
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">BASAP</a>
+      </div>
+
+        <ul class="nav navbar-nav navbar-right">
+          <!-- DROPDOWN (BUY)-->
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Buy<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Buy Car</a></li>
+              <li><a href="#">Buy Part</a></li>
+              <li><a href="#">Buy Used Car</a></li>
+              <li role="separator" class="divider"></li>
+              <li class="dropdown-header">Nav header</li>
+              <li><a href="#">Separated link</a></li>
+              <li><a href="#">One more separated link</a></li>
+            </ul>
+          </li>
+          <!-- DROPDOWN (SELL)-->
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sell<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Sell Car</a></li>
+              <li><a href="#">Sell Part</a></li>
+              <li><a href="#">Sell Used Car</a></li>
+              <li role="separator" class="divider"></li>
+              <li class="dropdown-header">Nav header</li>
+              <li><a href="#">Separated link</a></li>
+              <li><a href="#">One more separated link</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Companies</a></li>
+          <li><a href="#">Contact</a></li>
+          <form class="navbar-form navbar-right">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Search...">
+            <span class="input-group-btn">
+            <button class="btn btn-default" type="button">Go!</button>
+             </span>
+            </div>
+          </form>
+          <li><a href="#" class="pull-right"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+          <li><a href="#" class="pull-right"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+
+        </ul>
+      </div><!--/.nav-collapse -->
+    </div>
+  </nav>
+
+    <div class="site-wrapper">
+
+      <div class="site-wrapper-inner">
+
+        <div class="cover-container pull-left">
+
+          <div class="inner cover">
+            <div class="page-header">
+              <h1 class="cover-heading">Explore The Market</h1>
+              </div>
+            <div class="col-lg-5">
+            <p class="lead"><u>Find New & Used Cars</u></p>
+            <div class="row">
+              <div class="col-md-6">
+                <a href="#" class="btn btn-md btn-default active">NEW</a>
+              </div>
+              <div class="col-md-6">
+                <a href="#" class="btn btn-md btn-default">USED</a>
+              </div>
+            </div>
+            <hr>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="dropdown">
+                  <button class="btn btn-md btn-default dropdown-toggle" type="button" data-toggle="dropdown">ALL MAKES
+                    <span class="caret"></span></button>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">HTML</a></li>
+                    <li><a href="#">CSS</a></li>
+                    <li><a href="#">JavaScript</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="dropdown">
+                  <button class="btn btn-md btn-default dropdown-toggle" type="button" data-toggle="dropdown">ALL MODELS
+                    <span class="caret"></span></button>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">HTML</a></li>
+                    <li><a href="#">CSS</a></li>
+                    <li><a href="#">JavaScript</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <hr>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="dropdown">
+                  <button class="btn btn-md btn-default dropdown-toggle" type="button" data-toggle="dropdown">MAX PRICE
+                    <span class="caret"></span></button>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">HTML</a></li>
+                    <li><a href="#">CSS</a></li>
+                    <li><a href="#">JavaScript</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <input type="text" class="form-control pull-right" placeholder="ZIP CODE">
+              </div>
+            </div>
+            <hr>
+            <div class="row">
+              <p class="lead">
+                <a href="#" class="btn btn-md btn-default pull-left"><span class="glyphicon glyphicon-search"></span>Search</a>
+              </p>
+            </div>
+          </div>
+
+            <!-- Seperator -->
+            <div class="col-lg-1"></div>
+
+            <!-- Parts Form -->
+            <div class="col-lg-5">
+              <p class="lead"><u>Find New & Used Parts</u></p>
+              <div class="row">
+                <div class="col-md-6">
+                  <a href="#" class="btn btn-md btn-default active">NEW</a>
+                </div>
+                <div class="col-md-6">
+                  <a href="#" class="btn btn-md btn-default">USED</a>
+                </div>
+              </div>
+              <hr>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="dropdown">
+                    <button class="btn btn-md btn-default dropdown-toggle" type="button" data-toggle="dropdown">ALL MAKES
+                      <span class="caret"></span></button>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">HTML</a></li>
+                      <li><a href="#">CSS</a></li>
+                      <li><a href="#">JavaScript</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="dropdown">
+                    <button class="btn btn-md btn-default dropdown-toggle" type="button" data-toggle="dropdown">ALL MODELS
+                      <span class="caret"></span></button>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">HTML</a></li>
+                      <li><a href="#">CSS</a></li>
+                      <li><a href="#">JavaScript</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <hr>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="dropdown">
+                    <button class="btn btn-md btn-default dropdown-toggle" type="button" data-toggle="dropdown">MAX PRICE
+                      <span class="caret"></span></button>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">HTML</a></li>
+                      <li><a href="#">CSS</a></li>
+                      <li><a href="#">JavaScript</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <input type="text" class="form-control" placeholder="ZIP CODE">
+                </div>
+              </div>
+              <hr>
+              <div class="row">
+                <p class="lead">
+                  <a href="#" class="btn btn-md btn-default pull-right"><span class="glyphicon glyphicon-search"></span>Advanced Search</a>
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
